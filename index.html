@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Apache2 Ubuntu Default Page: It works</title>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+  window.onload = function() {
+    io_connect({'uuid': 'df52de5134e5a1e721bf19045644b1bc'},
+               function(data) {
+                 console.log(data);
+               },
+               function(err) {
+                 console.log(err);
+               }
+    );
+  };
+</script>
+</head>
+<body>
+</body>
+</html>
+
